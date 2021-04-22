@@ -1,0 +1,51 @@
+#task5
+
+#try:
+#  while True print('Hello world')
+#not handled by expction handing handled at runtime  
+# import sys
+# try:
+#   with open(sys.argv[1], 'r') as my_file:
+#       print(my_file.read())
+# except:
+#   print('an error occured')
+
+################################################
+# while True:
+#     x = input("Please enter a 4 digit number: ")
+#     try:
+#         if (len(x) != 4):raise ValueError
+#         break
+#     except ValueError:
+#         print("not 4 digits")
+
+################################################
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+# re_type_password = input("Re-enter your password: ")
+
+# try:
+#     if (password != re_type_password):
+#         print("Password does not match. Re-enter your password")
+#         for i in range(3):
+#             # enterPassword()
+#             password = input("Enter password: ")
+#             re_type_password = input("Re-enter your password: ")
+#             if (password != re_type_password):
+#                 print("Try Again!!")
+#             elif (password == re_type_password):
+#                 break
+#     print("Maximum number of attempts reached!")
+# except:
+#     pass
+
+
+###################################################
+
+# f = open("test.txt")
+# lis = f.readlines()
+# l = []
+# for x in lis:
+#   if len(x) % 2 == 0: l.append(x)
+# print(l) 
+##################################################
