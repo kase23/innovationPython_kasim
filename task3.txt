@@ -1,0 +1,40 @@
+# Task 3
+one = [12,True, 'Hello', 3,12, False, 'ello', 3,]
+a = ["a", "b", "c", "d", "e", "f", "g", "h"]
+x = slice(5)
+print(a[x])
+
+from functools import reduce
+
+reduce(lambda x, y: x+y, [1,2,3,4,5,6])
+reduce(lambda x, y: x*y, [1,2,3,4,5,6])
+
+minv = min([3,34,643])
+maxv = max([-4,2,44,645])
+
+k = [32,234,2,43,34,234]
+newlist = [x for x in k if x%2 != 0]
+
+listsq = [x**2 for x in range(5)]
+listsq2 = [x**2 for x in range(25,30)]
+
+listsqFinal = listsq + listsq2
+
+def listrep(listone, listtwo):
+  return (listone[:-1] + listtwo)
+
+def dictcon(one,two):
+  return {**one, **two}
+
+
+def sqdict(val):
+  d = {}
+  for x in range(1,val+1):
+    d[x] = x**2
+  return d
+  
+
+
+inp = input("Enter comma separated numbers: ")
+num_array = filter(lambda x: len(x) > 0, inp.split(","))
+print(list(num_array),tuple(num_array))
