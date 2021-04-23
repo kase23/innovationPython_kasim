@@ -1,0 +1,46 @@
+# task 6
+#################################################
+
+# x = 'HeslkdjLlkjsdffFDSlska'
+# new = [l for l in x if l.isupper()]
+
+#################################################
+
+
+# students = ['Smit', 'Jaya', 'Rayyan'] 
+# subjects = ['CSE', 'Networking', 'Operating System']
+
+# final = dict(zip(students, subjects))
+
+
+################################################
+
+# def rev(stri):
+#     i = 0
+#     while i < len(stri)+1:
+#         yield stri[-i]
+#         i = i +1
+  
+# stri='Consultadd Training'
+# nstr = ""
+# for x in rev(stri): 
+#     print(x)
+#     nstr = nstr+x
+# nstr
+
+################################################
+
+
+# def decorator(func):
+#     def out():
+#         print("before function")
+#         func()
+#         print("after function")
+#     return out
+
+# def decorator_test():
+#     print("this is fancy")
+
+# test = decorator(decorator_test)
+
+# test()
